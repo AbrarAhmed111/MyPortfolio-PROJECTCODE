@@ -130,13 +130,13 @@
         </div>
        
         <div class="projects">
-          <div class="project-image1"> <div class="swiper" >
+          <div class="project-image"> <div class="swiper" >
            
             <div class="swiper-wrapper" >
              
               
               
-              <div class="swiper-slide" id="pic1"><img src="css and images/flipkart clone (1).png"></div>
+              <div class="swiper-slide" ><img src="css and images/flipkart clone (1).png"></div>
               <div class="swiper-slide"><img src="css and images/google web page clone.png"></div> 
               <div class="swiper-slide"><img src="css and images/my portfolio.png"></div> 
               
@@ -172,28 +172,36 @@
           <span class="section-paragraph">Feel free to Contact me by submitting the form below and I will get back to
             you as soon as possible</span>
         </div>
+       
         <div id="contact-form">
+          <form id="form">
           <div class="contact-input">
             <div class="contact-label"><label for="name">Name</label></div>
-            <div><input placeholder="Enter Your Name" type="text" name="name" id="name" class="contact-insert"></div>
+            <div><input type="text" placeholder="Enter Your Name" type="text" name="name" id="name" class="contact-insert"></div>
           </div>
           <div class="contact-input">
             <div class="contact-label"><label for="email">Email</label></div>
-            <div><input placeholder="Enter Your Email" type="email" name="email" id="email" class="contact-insert">
+            <div><input type="text" placeholder="Enter Your Email" type="email" name="email" id="email" class="contact-insert">
+            </div>
+          </div>
+          <div class="contact-input">
+            <div class="contact-label"><label for="phone">Phone Number</label></div>
+            <div><input type="text" placeholder="Enter Your Phone Number" type="text" name="phone" id="phone" class="contact-insert">
             </div>
           </div>
 
-
           <div class="contact-input">
             <div class="contact-label"><label for="message">Message</label></div>
-            <div><textarea placeholder="Enter Your Message" type="message" name="message" id="message"
+            <div><textarea placeholder="How can I help you?" type="message" name="message" id="message"
                 class="contact-message"></textarea></div>
           </div>
           <input id="submit-button" title="Submit your form" type="submit" value="SUBMIT">
-          <!-- <button  type="submit">SUBMIT</button> -->
-
-
+        </form>
         </div>
+        
+     
+    </div>
+      
     </section>
   </main>
 
@@ -229,11 +237,10 @@
       &copyCopyright 2023. Made by <a href="mailto:eersam36@gmail.com?subject=Interested%20in%20your%20offer!"> DevWebies</a>
     </div>
   </footer>
-  <script>
-
-  </script>
+  
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="JavaScript/script.js"></script>
 </body>
 

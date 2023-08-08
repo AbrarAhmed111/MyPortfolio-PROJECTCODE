@@ -399,6 +399,7 @@ transform: rotate(90deg);
   padding: 10px 0px 0px;
   text-align: center;
   transition: all 0.7s ease 0s;
+  cursor: pointer;
 }
 .skill-box:hover {
   transition: all 0.7s ease-in-out 0s;
@@ -447,10 +448,33 @@ transform: rotate(90deg);
   margin-bottom: 100px;
   align-items: center;
 }
-.project-image1 {
+.project-image {
   height: 362px;
   width: 521px;
   background-size: cover;
+}
+.swiper .swiper-pagination-bullet-active{
+  background-color:  #7066ff;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #7066ff;
+}
+
+.swiper-slide img{
+  height: 380px;
+  width: 521px;
+  margin: 0px 20px;
+}
+.swiper {
+  width: 580px;
+  height: fit-content;
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background-color:  #555555;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #292d2e ;
 }
 
 .project-details {
@@ -516,7 +540,7 @@ transform: rotate(90deg);
 #contact-form
 {
   display: flex;
-  height: 700px;
+  height: 830px;
   width: 800px;
   background-color: #ffffff;
   padding: 40px;
@@ -569,10 +593,11 @@ div .contact-message{
   text-align: center;
   padding: 10px 0px 10px; 
   position: relative;
-  left: 314px;
+  left: 628px;
   transition: all 1s ease 0s;
   font-size: 18px;
   bottom: 12px;
+  cursor: pointer;
 
 }
 #submit-button:hover{
@@ -691,26 +716,3 @@ footer {
   font-weight: 510;
 }
 
-.swiper .swiper-pagination-bullet-active{
-  background-color:  #7066ff;
-}
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
-  color: #7066ff;
-}
-
-.swiper-slide img{
-  height: 380px;
-  width: 521px;
-  margin: 0px 20px;
-}
-.swiper {
-  width: 580px;
-  height: fit-content;
-}
-
-.swiper .swiper-pagination-bullet-active{
-  background-color:  #555555;
-}
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
-  color: #292d2e ;
-}
