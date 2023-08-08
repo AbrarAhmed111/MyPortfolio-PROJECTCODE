@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="css and images/styles.css" />
   <link rel="stylesheet" href="css and images/responsive.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -79,7 +80,7 @@
         </div>
         <div id="about-skills">
           <div id="left-skills">
-            <h3 id="skills-heading">Get to know me!</h3>
+            <h3 class="skills-heading">Get to know me!</h3>
             <p class="skills-paragraph">
               I'm a <b>Frontend Web Developer</b> building the Front-end of
               Websites and Web Applications that leads to the success of the
@@ -103,7 +104,7 @@
             <a id="skills-button" href="#contact">CONTACT</a>
           </div>
           <div id="right-skills">
-            <h3 id="skills-heading">My Skills</h3>
+            <h3 class="skills-heading">My Skills</h3>
             <div id="skills-container">
               <div class="skill-box">HTML</div>
               <div class="skill-box">CSS</div>
@@ -121,17 +122,36 @@
     </section>
     <section id="projects">
       <div id="projects-container">
-        <div class="section-headings">
+        <div id="project-headings">
           <h2 class="section-text">PROJECTS</h2>
           <div class="section-line"></div>
           <span class="section-paragraph">Here you will find some of the personal and clients projects that I created
             with each project containing its own case study </span>
         </div>
+       
         <div class="projects">
-          <div class="project-image1"></div>
+          <div class="project-image1"> <div class="swiper">
+           
+            <div class="swiper-wrapper">
+             
+              
+              
+              <div class="swiper-slide" id="pic1"><img src="css and images/flipkart clone (1).png"></div>
+              <div class="swiper-slide"><img src="css and images/google web page clone.png"></div> 
+              <div class="swiper-slide"><img src="css and images/my portfolio.png"></div> 
+              
+           
+            </div>
+           
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev" id="left-arrow"></div>
+            <div class="swiper-button-next" id="right-arrow"></div>
+          
+         
+          </div></div>
           <div class="project-details">
-            <h3 id="skills-heading">Flipkart Clone </h3>
-            <p class="projects-paragraph">The project involves creating a clone of <b>Flipkart</b> using front-end
+            <h3 class="skills-heading" id="headingg" >Flipkart Clone</h3>
+            <p class="projects-paragraph" id="paragraphh">The project involves creating a clone of <b>Flipkart</b> using front-end
               development
               skills, including <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. Users can browse products, add them to
               the cart, and complete
@@ -139,33 +159,8 @@
             <div></div>
           </div>
         </div>
-        <div class="projects">
-          <div class="project-image2"></div>
-          <div class="project-details">
-            <h3 id="skills-heading">My Portfolio</h3>
-            <p class="projects-paragraph">In this project, I developed a visually stunning <b>portfolio website</b>
-              using
-              front-end development skills, including CSS Grid, Flexbox, and various CSS properties. The portfolio
-              showcases my <b>skills</b>, <b>projects</b>, and <b>achievements</b> in a responsive and visually
-              appealing manner.</p>
-
-          </div>
-        </div>
-        <div id="project-last">
-          <div class="project-image3"></div>
-          <div class="project-details">
-            <h3 id="skills-heading">Google Web Page Clone</h3>
-            <p class="projects-paragraph">Using front-end development skills, I created a clone of the <b>Google
-                web page</b>. The project includes replicating the <b>layout</b>, <b>styling</b>, and
-              <b>functionality</b> of the Google search
-              interface, allowing users to perform searches and experience a <b>similar user interface</b> as the
-              original
-              Google website.
-            </p>
-
-          </div>
-        </div>
-        <div class="section-headings">
+       
+        <div id="project-headings">
           <h2 id="section-text">MORE PROJECTS COMING SOON...</h2>
           <div id="buffering-circle"></div>
     </section>
@@ -238,6 +233,7 @@
 
   </script>
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="JavaScript/script.js"></script>
 </body>
 
