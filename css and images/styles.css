@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  
 }
 /* NAVBAR */
 #nav-container {
@@ -338,7 +339,7 @@ transform: rotate(90deg);
   height: 522px;
   width: 521px;
 }
-#skills-heading {
+.skills-heading {
   height: 42px;
   font-size: 28px;
   margin-bottom: 20px;
@@ -422,9 +423,16 @@ transform: rotate(90deg);
 
 /* SECTION PROJECTS */
 #projects-container {
-  height: 2300px;
+  height: 950px;
   background-color: #ffffff;
   padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#project-headings{
+  height: 160px;
+  width: 1140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -436,39 +444,17 @@ transform: rotate(90deg);
   grid-template-columns: 50% 50%;
   overflow: hidden;
   grid-column-gap: 80px;
-  margin-bottom: 115px;
+  margin-bottom: 100px;
   align-items: center;
 }
 .project-image1 {
   height: 362px;
   width: 521px;
-  background-image: url("flipkart\ clone\ \(1\).png");
   background-size: cover;
 }
-.project-image2 {
-  height: 380px;
-  width: 521px;
-  background-image: url("my\ portfolio.png");
-  background-size: cover;
-}
-.project-image3 {
-  height: 362px;
-  width: 521px;
-  background-image: url("google\ web\ page\ clone.png");
-  background-size: cover;
-}
-#project-last{
-  width: 1140.8px;
-  height: 523px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  overflow: hidden;
-  grid-column-gap: 80px;
-  margin-bottom: 50px;
-  align-items: center;
-}
+
 .project-details {
-  height: 303px;
+  height: 290px;
   width: 476px;
   display: flex;
   flex-direction: column;
@@ -702,4 +688,28 @@ footer {
   color: #ffffff;
   margin-left: 1px;
   font-weight: 510;
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background-color:  #7066ff;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #7066ff;
+}
+
+.swiper-slide img{
+  height: 380px;
+  width: 521px;
+  margin: 0px 20px;
+}
+.swiper {
+  width: 580px;
+  height: fit-content;
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background-color:  #555555;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color: #292d2e ;
 }
