@@ -6,22 +6,22 @@ let typed = new Typed("#element", {
   loop: true,
 });
 //                                                PROJECTS SLIDER
+
 const swiper = new Swiper(".swiper", { 
- 
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+},
+
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
-    
   },
-
-
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
 });
-
-let rightbutton = document.getElementById("right-arrow");
-let leftbutton = document.getElementById("left-arrow");
 let heading = document.getElementById("headingg");
 let paragraph = document.getElementById("paragraphh");
 
@@ -34,16 +34,15 @@ function updateSlideContent(activeSlideIndex) {
     paragraph.innerHTML = "Using front-end development skills, I created a clone of the <b>Google web page</b>. The project includes replicating the <b>layout</b>, <b>styling</b>, and <b>functionality </b> of the Google search interface, allowing users to perform searches and experience a <b>similar user interface</b> as the original Google website.";
   } else if (activeSlideIndex === 2) {
     heading.innerHTML = "My Portfolio"; 
-    paragraph.innerHTML = "In this project, I developed a visually stunning <b>portfolio website</b> using front-end development skills, including CSS Grid, Flexbox, and various CSS properties. The portfolio showcases my <b>skills</b>, <b>projects</b>, and <b>achievements</b> in a responsive and visually appealing manner.";
+    paragraph.innerHTML = "In this project, I developed a visually stunning <b>portfolio website</b> using front-end development skills, including CSS Grid, Flexbox, various CSS properties and JavaScript. The portfolio showcases my <b>skills</b>, <b>projects</b>, and <b>achievements</b> in a responsive and visually appealing manner.";
   }
 }
 
-rightbutton.addEventListener("click", () => {
-  let activeSlideIndex = swiper.activeIndex;
+
+swiper.on("slideChange", () => {
+  let activeSlideIndex = swiper.realIndex;  //realindex for loop
   updateSlideContent(activeSlideIndex);
 });
 
-leftbutton.addEventListener("click", () => {
-  let activeSlideIndex = swiper.activeIndex;
-  updateSlideContent(activeSlideIndex);
-});
+
+updateSlideContent(0);

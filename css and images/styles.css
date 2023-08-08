@@ -454,11 +454,12 @@ transform: rotate(90deg);
 }
 
 .project-details {
-  height: 290px;
+  height: 240px;
   width: 476px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
   
 }
 #section-text{
