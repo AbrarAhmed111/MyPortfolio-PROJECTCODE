@@ -46,3 +46,10 @@ swiper.on("slideChange", () => {
 
 
 updateSlideContent(0);
+
+
+let contactButton = document.getElementById("submit-button")
+contactButton.addEventListener("click",(e) =>
+{
+  e.preventDefault() 
+})
