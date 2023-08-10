@@ -51,8 +51,6 @@ swiper.on("slideChange", () => {
   let activeSlideIndex = swiper.realIndex;  //realindex for loop
   updateSlideContent(activeSlideIndex);
 });
-
-
 updateSlideContent(0);
 
 
@@ -61,3 +59,21 @@ contactButton.addEventListener("click",(e) =>
 {
   e.preventDefault() 
 })
+
+//                                                       DARK THEME
+
+const darkIcon = document.getElementById("dark-icon");
+let isDarkMode = false;
+
+darkIcon.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+  
+  isDarkMode = !isDarkMode;
+
+  if (isDarkMode) {
+    darkIcon.src = "css and images/sun.png"; // Change image source to sun when in dark mode
+  } else {
+    darkIcon.src = "css and images/moon.png"; // Change image source back to moon when in light mode
+  }
+});
+

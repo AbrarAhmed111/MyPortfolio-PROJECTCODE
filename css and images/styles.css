@@ -5,6 +5,11 @@
   padding: 0px;
   
 }
+/* 
+:root{
+  --primary-color: #666666;
+  --seconadary-color: #ffffff
+} */
 /* NAVBAR */
 #nav-container {
   background-color: #ffffff;
@@ -25,6 +30,7 @@
   display: flex;
   align-items: center;
 }
+
 #icon-img {
   border: 1px solid black;
 
@@ -43,12 +49,18 @@ nav div a {
 nav div a:hover {
   color: #000000;
 }
+ul{
+  display: flex;
+  align-items: center;
+  
+}
 ul li {
   display: inline-block;
 }
 li {
   list-style: none;
   margin: 0px 20px;
+  
 }
 li a {
   text-decoration: none;
@@ -59,6 +71,10 @@ ul li a {
 }
 li a:hover {
   color: #000000;
+}
+#dark-icon{
+  width: 45px;
+  cursor: pointer;
 }
 
 /* MAIN  */
@@ -233,9 +249,9 @@ transform: rotate(90deg);
 
 }
 #loading-dot{
-  border: 1px solid #f9f9f9;
-  width: 5px;
-  height: 5px;
+  /* border: 1px solid #f9f9f9; */
+  width: 6px;
+  height: 6px;
   background-color: #000000;
   border-radius: 50%;
   animation: loading-dot 2s ease-in-out 0s infinite normal;
@@ -243,15 +259,19 @@ transform: rotate(90deg);
 @keyframes loading-dot {
   0%  {
             transform: translateX(1px);
+            
   }
   10%  {
     background-color: #666666;
+   
   }
   25%  {
     background-color: #b3b1b1;
+    
   }
   35%  {
     background-color: #d6d4d4;
+    
   }
   45% {
     background-color: #e4e3e3;
@@ -715,4 +735,60 @@ footer {
   margin-left: 1px;
   font-weight: 510;
 }
+
+/*                                                                    DARK THEME                                           */
+
+body.dark-theme {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.dark-theme #nav-container {
+  background-color: #1f2324;
+  color: #ffffff;
+}
+.dark-theme #icon-img{
+  border: 1px solid #ffffff;
+}
+.dark-theme ul li a, .dark-theme #nav-name {
+  color: #ffffff;
+}
+.dark-theme ul li a:hover, .dark-theme #nav-name:hover{
+  color: #cecece;
+}
+
+.dark-theme #image-icon1, .dark-theme #image-icon2,.dark-theme #image-icon3,.dark-theme #image-icon4,.dark-theme #arrow-icon {
+  filter: invert(1);
+}
+.dark-theme #drag-text, .dark-theme #right-slider{
+  background-color: #1f1f1f;
+}
+
+.dark-theme #about-container{
+
+  background-color: #121212;
+} 
+.dark-theme .section-paragraph, .dark-theme .skills-paragraph{
+  color: #b5b1b1;
+}
+.dark-theme #projects-container{
+
+  background-color: #171717;
+} 
+.dark-theme .projects{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.dark-theme #section-text, .dark-theme #linkedin {
+  color: #ffffff;
+}
+.dark-theme #buffering-circle{
+  border-color: #ffffff;
+  border-bottom-color: #8f8f8f;
+}
+.dark-theme #contact-form{
+  background-color: #1f1f1f;
+  color: #b5b1b1;
+}
+
 
