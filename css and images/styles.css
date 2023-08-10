@@ -37,6 +37,7 @@
   background-size: cover;
   margin-right: 18px;
 }
+
 nav div a {
   font-size: 25px;
   color: #616161;
@@ -187,8 +188,7 @@ li a:hover {
 }
 #image-icon1:hover {
   transition: all 0.5s ease-in-out 0s;
-  height: 50px;
-  width: 50px;
+  transform: scale(1.3);
 }
 #image-icon2 {
   height: 40px;
@@ -200,8 +200,7 @@ li a:hover {
 }
 #image-icon2:hover {
   transition: all 0.5s ease-in-out 0s;
-  height: 50px;
-  width: 50px;
+  transform: scale(1.3);
 }
 #image-icon3 {
   height: 40px;
@@ -213,8 +212,7 @@ li a:hover {
 }
 #image-icon3:hover {
   transition: all 0.5s ease-in-out 0s;
-  height: 50px;
-  width: 50px;
+  transform: scale(1.3);
 }
 #image-icon4 {
   height: 40px;
@@ -226,8 +224,7 @@ li a:hover {
 }
 #image-icon4:hover {
   transition: all 0.5s ease-in-out 0s;
-  height: 50px;
-  width: 50px;
+  transform: scale(1.3);
 }
 
 /* SECTION ABOUT */
@@ -670,8 +667,7 @@ footer {
   transition: all 0.5s ease 0s;
 }
 #social-icon1:hover {
-  height: 40px;
-  width: 40px;
+  transform: scale(1.4);
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -684,9 +680,9 @@ footer {
   transition: all 0.5s ease 0s;
 }
 #social-icon2:hover {
-  height: 40px;
-  width: 40px;
+ 
   transition: all 0.5s ease-in-out 0s;
+  transform: scale(1.4);
 }
 
 #social-icon3 {
@@ -698,8 +694,8 @@ footer {
   transition: all 0.5s ease 0s;
 }
 #social-icon3:hover {
-  height: 40px;
-  width: 40px;
+  
+  transform: scale(1.4);
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -712,8 +708,8 @@ footer {
   transition: all 0.5s ease 0s;
 }
 #social-icon4:hover {
-  height: 40px;
-  width: 40px;
+  
+  transform: scale(1.4);
   transition: all 0.5s ease-in-out 0s;
 }
 
