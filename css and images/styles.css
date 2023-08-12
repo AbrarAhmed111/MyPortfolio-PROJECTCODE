@@ -18,8 +18,11 @@ html {
   justify-content: space-between;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 610;
-  position: fixed;
-  z-index: 11;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 2;
   width: 100%;
 }
 
@@ -427,7 +430,7 @@ transform: rotate(90deg);
 
 /* SECTION PROJECTS */
 #projects-container {
-  height: 1110px;
+  height: 1270px;
   background-color: #ffffff;
   padding: 120px 0px;
   display: flex;
