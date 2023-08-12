@@ -71,9 +71,28 @@ darkIcon.addEventListener("click", () => {
   isDarkMode = !isDarkMode;
 
   if (isDarkMode) {
-    darkIcon.src = "css and images/sun.png"; // Change image source to sun when in dark mode
+    darkIcon.src = "css and images/sun.png"; 
   } else {
-    darkIcon.src = "css and images/moon.png"; // Change image source back to moon when in light mode
+    darkIcon.src = "css and images/moon.png"; 
   }
 });
+
+//  DRAG TEXT ARROW
+
+let drag = document.getElementById("right-slider")
+let arrow_icon = document.getElementById("arrow-icon")
+
+drag.addEventListener("mouseover", () =>
+{
+    arrow_icon.src = "css and images/left-arrow.png"
+})
+drag.addEventListener("mouseout", () => {
+  arrow_icon.src = "css and images/rightarrow.png";
+});
+
+
+
+
+
+
 
