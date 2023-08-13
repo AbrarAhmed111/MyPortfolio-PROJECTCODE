@@ -75,9 +75,9 @@ darkIcons.forEach(darkIcon => {
 
     darkIcons.forEach(icon => {
       if (isDarkMode) {
-        icon.src = "css and images/sun.png"; 
+        icon.src = "/Resources//sun.png"; 
       } else {
-        icon.src = "css and images/moon.png"; 
+        icon.src = "/Resources//moon.png"; 
       }
     });
   });
@@ -90,10 +90,10 @@ let arrow_icon = document.getElementById("arrow-icon")
 
 drag.addEventListener("mouseover", () =>
 {
-    arrow_icon.src = "css and images/left-arrow.png"
+    arrow_icon.src = "/Resources//left-arrow.png"
 })
 drag.addEventListener("mouseout", () => {
-  arrow_icon.src = "css and images/rightarrow.png";
+  arrow_icon.src = "/Resources//rightarrow.png";
 });
 
 
@@ -118,10 +118,10 @@ menu_button.addEventListener("click",() =>
     isSlideOpen = !isSlideOpen;
     if (isSlideOpen)
     {
-      menu_icon.src = "css and images/cross-icon.png"
+      menu_icon.src = "/Resources//cross-icon.png"
     }
     else {
-      menu_icon.src = "css and images/menu-icon.png"
+      menu_icon.src = "/Resources//menu-icon.png"
     }
   })
 
@@ -132,7 +132,7 @@ link_buttons.forEach(link_button => {
     
     
     menu_wrap.classList.remove("menu-wrap")
-    menu_icon.src = "css and images/menu-icon.png"
+    menu_icon.src = "/Resources//menu-icon.png"
     isSlideOpen = false;
   });
 });

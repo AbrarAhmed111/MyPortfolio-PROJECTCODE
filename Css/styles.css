@@ -45,7 +45,7 @@ header{
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-image: url("codericon.png");
+  background-image: url("/Resources/codericon.png");
   background-size: cover;
   
 }
@@ -142,7 +142,7 @@ li a {
 #introduction-container {
   height: 600px;
   width: 100%;
-  background-image: url("backgroundintroduction.jpg");
+  background-image: url("/Resources/backgroundintroduction.jpg");
   background-size: cover;
   color: #eeeeee;
   font-family: "Source Sans 3", sans-serif;
@@ -228,7 +228,7 @@ li a {
 #image-icon1 {
   height: 40px;
   width: 40px;
-  background-image: url("facebookicon.png");
+  background-image: url("/Resources/facebookicon.png");
   background-size: cover;
   margin: 10px 0px;
   transition: all 0.5s ease 0s;
@@ -240,7 +240,7 @@ li a {
 #image-icon2 {
   height: 40px;
   width: 40px;
-  background-image: url("insta.png");
+  background-image: url("/Resources/insta.png");
   background-size: cover;
   margin: 10px 0px;
   transition: all 0.5s ease 0s;
@@ -252,7 +252,7 @@ li a {
 #image-icon3 {
   height: 40px;
   width: 40px;
-  background-image: url("twitter.png");
+  background-image: url("/Resources/twitter.png");
   background-size: cover;
   margin: 10px 0px;
   transition: all 0.5s ease 0s;
@@ -264,7 +264,7 @@ li a {
 #image-icon4 {
   height: 40px;
   width: 40px;
-  background-image: url("linkedin.png");
+  background-image: url("/Resources/linkedin.png");
   background-size: cover;
   margin: 10px 0px;
   transition: all 0.5s ease 0s;
@@ -584,7 +584,7 @@ transform: rotate(90deg);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("backgroundintroduction.jpg");
+  background-image: url("/Resources/backgroundintroduction.jpg");
   background-size: cover;
   color: #eeeeee;
   font-family: "Source Sans 3", sans-serif;
@@ -711,7 +711,7 @@ footer {
 #social-icon1 {
   height: 30px;
   width: 30px;
-  background-image: url("white\ facebook.png");
+  background-image: url("/Resources/white\ facebook.png");
   background-size: cover;
   transition: all 0.5s ease 0s;
 }
@@ -723,7 +723,7 @@ footer {
 #social-icon2 {
   height: 30px;
   width: 30px;
-  background-image: url("white\ insta.png");
+  background-image: url("/Resources/white\ insta.png");
   background-size: cover;
   /* margin: 10px 10px 0px 0px; */
   transition: all 0.5s ease 0s;
@@ -737,7 +737,7 @@ footer {
 #social-icon3 {
   height: 30px;
   width: 30px;
-  background-image: url("white\ twiter.png");
+  background-image: url("/Resources/white\ twiter.png");
   background-size: cover;
   /* margin: 10px 10px 0px 0px; */
   transition: all 0.5s ease 0s;
@@ -751,7 +751,7 @@ footer {
 #social-icon4 {
   height: 30px;
   width: 30px;
-  background-image: url("white\ linkedin\ icon.png");
+  background-image: url("/Resources/white\ linkedin\ icon.png");
   background-size: cover;
   /* margin: 10px 10px 0px 0px; */
   transition: all 0.5s ease 0s;
