@@ -3,6 +3,7 @@
 html {
   font-size: 80%;
 }
+/*                                                INTRODUCTION  */
 #introduction-container {
   height: 531px;
   width: 100%;
@@ -72,7 +73,7 @@ html {
 }
 /*                                                ABOUT */
 #about-container {
-  height: 720px;
+  height: 70%;
 background-color: #f9f9f9;
 padding: 50px 0px;
 display: flex;
@@ -82,15 +83,16 @@ overflow: hidden;
 }
 #about-skills {
   width: 72.1%;
-  height: 488px;
+  height: 60%;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 26rem;
+  grid-template-rows: 36rem;
 }
 
 #left-skills {
-  height: 240px;
+  height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 .skills-heading {
  
@@ -129,6 +131,7 @@ overflow: hidden;
 
 @media screen and (max-width: 39.25em)
 {
+  /*                                                    INTRODUCTION */
   #introduction-container{
     height: 361px;
   }
@@ -162,6 +165,7 @@ overflow: hidden;
 @media screen and (max-width: 30.25em)
 {
 
+  /*                                                    INTRODUCTION */
   #introduction-container {
     height: 331px;
     width: 100%;
@@ -192,7 +196,7 @@ overflow: hidden;
   #introduction-paragraph{
     font-size: 1rem;
   }
-
+/*                                                ABOUT */
   #about-skills {
     grid-template-rows: 35.1rem;
 
@@ -226,15 +230,11 @@ overflow: hidden;
   width: 100%;
   justify-content: center;
 }
-#about-skills {
-  grid-template-rows: 38.1rem;
 
-}
+/*                                                ABOUT */
 #about-skills {
-  height: 548px;
-}
-#about-container {
-  height: 790px;
+  grid-template-rows: 38rem;
+
 }
 #skill-box8 {
   width: 67px;
@@ -252,5 +252,8 @@ overflow: hidden;
   width: 4.4rem;
   height: 3.2rem;
   border-radius: 1.5rem;
+}
+#introduction-button {
+  left: 0;
 }
 }

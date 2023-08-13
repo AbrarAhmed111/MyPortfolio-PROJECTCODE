@@ -30,6 +30,7 @@ header{
   
   z-index: 2;
   width: 100%;
+  overflow: hidden;
 }
 
 #left-nav {
@@ -613,6 +614,7 @@ transform: rotate(90deg);
 .contact-input{
   margin-bottom: 40px;
   width: 100%;
+  overflow: hidden;
 }
 .contact-label{
   height: 21px;
