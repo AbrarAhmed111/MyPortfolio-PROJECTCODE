@@ -72,6 +72,9 @@ html {
   display: none;
 }
 /*                                                ABOUT */
+.section-headings {
+  width: 100%;
+}
 #about-container {
   height: 70%;
 background-color: #f9f9f9;
@@ -227,6 +230,7 @@ overflow: hidden;
 
 
 /*                                                ABOUT */
+
 #about-skills {
   grid-template-rows: 38rem;
 
@@ -250,5 +254,8 @@ overflow: hidden;
 }
 #introduction-button {
   left: 0;
+}
+#left-nav {
+  gap: 2rem;
 }
 }
