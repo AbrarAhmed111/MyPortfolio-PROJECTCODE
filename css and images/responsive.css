@@ -3,6 +3,37 @@
 html {
   font-size: 80%;
 }
+#introduction-container {
+  height: 531px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0 0 0;
+}
+#introduction-heading {
+  width: 40%;
+  margin: 1rem 0 0rem;
+  font-size: 1.8rem;
+}
+#introduction-paragraph {
+  width: 40%;
+}
+
+#introduction-photo img {
+  width: 83%;
+  border-radius: 7rem;
+  height: 106%;
+}
+#introduction-photo{
+
+  display: flex;
+ 
+  align-items: center;
+  width: 40%;
+}
+
   }
 
 
@@ -11,4 +42,88 @@ html {
 html {
   font-size: 56%;
 }
+#introduction-container {
+  height: 401px;
+}
+#introduction-heading {
+  width: 40%;
+  margin: 1rem 0 0rem;
+}
+#introduction-paragraph {
+  width: 40%;
+}
+
+#introduction-photo img {
+  width: 83%;
+  border-radius: 9rem;
+  height: 106%; 
+}
+#introduction-photo{
+  display: flex;
+  align-items: center;
+  width: 45.2%;
+}
+
+}
+
+@media screen and (max-width: 39.25em)
+{
+  #introduction-container{
+    height: 361px;
+  }
+  #introduction-heading {
+    width: 60%;
+    margin: 1rem 0 0rem;
+  }
+  #introduction-paragraph {
+    width: 63%
+  }
+  #introduction-photo{
+    width: 53.2%;
+  }
+  
+  #right-nav ul{
+    display: none;
+  }
+  #right-slider{
+    display: none;
+  }
+  #menu-icon{
+    display: inline
+  }
+}
+@media screen and (max-width: 30.25em)
+{
+  #introduction-container {
+    height: 331px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0 0 0;
+  }
+  #introduction-heading {
+    width: 75%;
+    margin: 1rem 0 0rem;
+  }
+  #introduction-paragraph {
+    width: 74%
+  }
+  
+  #introduction-photo img {
+    width: 60%;
+    border-radius: 7rem;
+    height: 106%;
+  }
+  #introduction-photo{
+  
+    display: flex;
+   
+    align-items: center;
+    width: 75%;
+  }
+  #introduction-paragraph{
+    font-size: 1rem;
+  }
 }

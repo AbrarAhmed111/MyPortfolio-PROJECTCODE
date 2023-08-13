@@ -62,22 +62,28 @@ contactButton.addEventListener("click",(e) =>
 
 //                                                       DARK THEME
 
-const darkIcon = document.getElementById("dark-icon");
+
+const darkIcons = document.querySelectorAll("#dark-icon");
 let isDarkMode = false;
 
-darkIcon.addEventListener("click", () => {
-  document.body.classList.toggle("dark-theme");
+// Loop through each dark mode toggle button
+darkIcons.forEach(darkIcon => {
+  darkIcon.addEventListener("click", () => {
+    document.body.classList.toggle("dark-theme");
   
-  isDarkMode = !isDarkMode;
+    isDarkMode = !isDarkMode;
 
-  if (isDarkMode) {
-    darkIcon.src = "css and images/sun.png"; 
-  } else {
-    darkIcon.src = "css and images/moon.png"; 
-  }
+    darkIcons.forEach(icon => {
+      if (isDarkMode) {
+        icon.src = "css and images/sun.png"; 
+      } else {
+        icon.src = "css and images/moon.png"; 
+      }
+    });
+  });
 });
 
-//  DRAG TEXT ARROW
+//                                                     DRAG TEXT ARROW
 
 let drag = document.getElementById("right-slider")
 let arrow_icon = document.getElementById("arrow-icon")
@@ -94,5 +100,41 @@ drag.addEventListener("mouseout", () => {
 
 
 
+//                                                    MENU WRAP
+
+let menu_wrap = document.getElementById("ul-menu")
+const link_buttons = document.querySelectorAll("#link-button");
+let menu_button =document.getElementById("menu-icon")
+let menu_icon = document.getElementById("menu-icon")
+let isSlideOpen = false;
+const toggleMenu = () =>
+{
+  menu_wrap.classList.toggle("menu-wrap")
+}
+
+menu_button.addEventListener("click",() =>
+{
+    toggleMenu();
+    isSlideOpen = !isSlideOpen;
+    if (isSlideOpen)
+    {
+      menu_icon.src = "css and images/cross-icon.png"
+    }
+    else {
+      menu_icon.src = "css and images/menu-icon.png"
+    }
+  })
+
+
+// Loop through each dark mode toggle button
+link_buttons.forEach(link_button => {
+  link_button.addEventListener("click", () => {
+    
+    
+    menu_wrap.classList.remove("menu-wrap")
+    menu_icon.src = "css and images/menu-icon.png"
+    isSlideOpen = false;
+  });
+});
 
 
