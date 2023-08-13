@@ -207,12 +207,16 @@ overflow: hidden;
 {
 #introduction-photo{
   width: 100%;
+  margin-bottom: 4rem;
+  justify-content: center;
 }
 #introduction-photo img {
-  width: 55%;
+  width: 90%;
+  border-radius: 9rem;
+
 }
 #introduction-container {
-  height: 331px;
+  height: 460px;
 }
 #introduction-heading {
   width: 91%;
@@ -221,15 +225,6 @@ overflow: hidden;
   width: 90%;
 }
 
-#introduction-photo img {
-  width: 65%;
-  border-radius: 7rem;
-  height: 106%;
-}
-#introduction-photo{
-  width: 100%;
-  justify-content: center;
-}
 
 /*                                                ABOUT */
 #about-skills {

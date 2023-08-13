@@ -99,13 +99,14 @@ li a {
   overflow: hidden;
   transition: max-width 0.5s;
   right: 0;
+  align-items: flex-end;
 }
 #menu ul li a {
   font-size: 2rem;
 }
 #menu ul li, #menu ul div{
   border-top: 0.5px solid #cacaca;
-  padding: 3rem 3rem;
+  padding: 5rem 3rem;
   width: 100%;
   display: flex;
   justify-content: end;
