@@ -22,8 +22,8 @@ html {
 }
 
 #introduction-photo img {
-  width: 83%;
-  border-radius: 7rem;
+  width: 41%;
+  border-radius: 9rem;
   height: 106%;
 }
 #introduction-photo{
@@ -31,7 +31,9 @@ html {
   display: flex;
  
   align-items: center;
-  width: 40%;
+  
+  width: 100%;
+  justify-content: center;
 }
 
   }
@@ -39,9 +41,11 @@ html {
 
 @media screen and (max-width: 56.25em)
 {
+
 html {
   font-size: 56%;
 }
+/*                                                    INTRODUCTION */
 #introduction-container {
   height: 401px;
 }
@@ -54,16 +58,73 @@ html {
 }
 
 #introduction-photo img {
-  width: 83%;
+  width: 43%;
   border-radius: 9rem;
   height: 106%; 
 }
 #introduction-photo{
-  display: flex;
-  align-items: center;
-  width: 45.2%;
+  
+  width: 100%;
+  justify-content: center;
+}
+#loading{
+  display: none;
+}
+/*                                                ABOUT */
+#about-container {
+  height: 720px;
+background-color: #f9f9f9;
+padding: 50px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+}
+#about-skills {
+  width: 72.1%;
+  height: 488px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 26rem;
 }
 
+#left-skills {
+  height: 240px;
+  width: 100%;
+}
+.skills-heading {
+ 
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+#skills-container {
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: #666666;
+  font-weight: 510;
+  justify-content: center;
+}
+.skill-box {
+  width: 4.4rem;
+  height: 3.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.section-headings {
+  margin: 0px 0px 20px;
+
+}
+.section-line {
+ 
+  height: 4px;
+  width: 24px;
+}
 }
 
 @media screen and (max-width: 39.25em)
@@ -72,14 +133,20 @@ html {
     height: 361px;
   }
   #introduction-heading {
-    width: 60%;
+    width: 64%;
     margin: 1rem 0 0rem;
   }
+  
+  #introduction-photo img {
+    width: 50%;
+  }
   #introduction-paragraph {
-    width: 63%
+    width: 64%;
   }
   #introduction-photo{
-    width: 53.2%;
+   
+    width: 100%;
+    justify-content: center;
   }
   
   #right-nav ul{
@@ -94,6 +161,7 @@ html {
 }
 @media screen and (max-width: 30.25em)
 {
+
   #introduction-container {
     height: 331px;
     width: 100%;
@@ -101,29 +169,88 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 4rem 0 0 0;
+    padding: 5rem 0 0 0;
+    overflow: hidden;
   }
   #introduction-heading {
-    width: 75%;
+    width: 80%;
     margin: 1rem 0 0rem;
   }
   #introduction-paragraph {
-    width: 74%
+    width: 80%
   }
   
   #introduction-photo img {
-    width: 60%;
+    width: 55%;
     border-radius: 7rem;
     height: 106%;
   }
   #introduction-photo{
-  
-    display: flex;
-   
-    align-items: center;
-    width: 75%;
+    width: 100%;
+    justify-content: center;
   }
   #introduction-paragraph{
     font-size: 1rem;
   }
+
+  #about-skills {
+    grid-template-rows: 35.1rem;
+
+  }
+  
+}
+@media screen and (max-width: 24.25em)
+{
+#introduction-photo{
+  width: 100%;
+}
+#introduction-photo img {
+  width: 55%;
+}
+#introduction-container {
+  height: 331px;
+}
+#introduction-heading {
+  width: 91%;
+}
+#introduction-paragraph {
+  width: 90%;
+}
+
+#introduction-photo img {
+  width: 65%;
+  border-radius: 7rem;
+  height: 106%;
+}
+#introduction-photo{
+  width: 100%;
+  justify-content: center;
+}
+#about-skills {
+  grid-template-rows: 38.1rem;
+
+}
+#about-skills {
+  height: 548px;
+}
+#about-container {
+  height: 790px;
+}
+#skill-box8 {
+  width: 67px;
+}
+#skill-box7 {
+  width: 52px;
+}
+#skill-box3 {
+  width: 65px;
+}
+#skill-box6 {
+  width: 90px;
+}
+.skill-box {
+  width: 4.4rem;
+  height: 3.2rem;
+  border-radius: 1.5rem;
+}
 }
