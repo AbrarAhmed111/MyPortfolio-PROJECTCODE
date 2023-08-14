@@ -1,5 +1,7 @@
 @media  screen and (max-width: 86em)
-  {div .contact-message {
+  {
+    /*                                                            CONTACT */
+    div .contact-message {
     height: 7rem;
   }
     .contact-input {
@@ -107,7 +109,32 @@ html {
   width: 100%;
   justify-content: center;
 }
-
+/*                                                            FOOTER */
+#upper-footer {
+  flex-direction: column;
+}
+#social-icons {
+  justify-content: start;
+  gap: 0.6rem;
+  height: auto;
+  margin: 1.3rem 0;
+}
+#social-icon1 {
+height: 3rem;
+width: 3rem;
+}
+#social-icon2 {
+height: 3rem;
+width: 3rem;
+}
+#social-icon3 {
+height: 3rem;
+width: 3rem;
+}
+#social-icon4 {
+height: 3rem;
+width: 3rem;
+}
   }
 
 
@@ -364,7 +391,7 @@ div .contact-message {
   left: 0;
 }
 #left-nav {
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 /*                                                            PROJECTS */
@@ -375,7 +402,7 @@ div .contact-message {
   height: 45px;
   width: 45px;
 }
-
+/*                                                            CONTACT */
 div .contact-insert {
   
     height: auto;
@@ -387,7 +414,16 @@ div .contact-insert {
 
 @media screen and (max-width: 20.25em)
 {
+  /*                                                            PROJECTS */
   .projects-paragraph {
     height: auto;
+  }
+  /*                                                            FOOTER */
+  #upper-footer {
+    height: auto;
+  }
+  #social-icons {
+    width: auto;
+    flex-wrap: wrap;
   }
 }
