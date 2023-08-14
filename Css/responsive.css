@@ -227,6 +227,9 @@ overflow: hidden;
     width: 50px;
     border-top: 5px solid black;
 }
+.projects {
+  padding: 0 1.5rem;
+}
 } 
 @media screen and (max-width: 30.25em)
 {
