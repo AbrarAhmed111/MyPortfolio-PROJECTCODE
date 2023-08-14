@@ -112,6 +112,7 @@ html {
 /*                                                            FOOTER */
 #upper-footer {
   flex-direction: column;
+  height: auto;
 }
 #social-icons {
   justify-content: start;
@@ -135,7 +136,18 @@ width: 3rem;
 height: 3rem;
 width: 3rem;
 }
-  }
+footer {
+  height: auto;
+  
+}
+#copywrite-text {
+  padding: 1.5rem 0;
+}
+#footer-paragraph { 
+  margin-bottom: 10px;
+  
+}
+}
 
 
 @media screen and (max-width: 56.25em)
@@ -283,6 +295,11 @@ overflow: hidden;
 div .contact-insert {
   height: 2rem;
 }
+ /*                                                    FOOTER */
+#footer-paragraph { 
+
+  width: 100%;
+}
 } 
 @media screen and (max-width: 30.25em)
 {
@@ -339,6 +356,11 @@ div .contact-message {
 }
 #contact-container {
   padding: 5rem 0;
+}
+
+/*                                                  FOOTER */
+#footer-heading {
+  margin-bottom: 13px;
 }
 }
 @media screen and (max-width: 24.25em)
@@ -409,6 +431,12 @@ div .contact-insert {
     padding: 0.3rem 1rem;
     border-radius: 5px;
   }
+   /*                                                            FOOTER */
+  footer {
+ 
+    padding-top: 28px;
+  }
+ 
 }
 
 
