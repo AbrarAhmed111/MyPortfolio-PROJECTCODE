@@ -119,6 +119,8 @@ html {
   gap: 0.6rem;
   height: auto;
   margin: 1.3rem 0;
+  position: relative;
+  right: 2px;
 }
 #social-icon1 {
 height: 3.5rem;
@@ -136,6 +138,7 @@ width: 3rem;
 height: 3rem;
 width: 3rem;
 }
+
 footer {
   height: auto;
   
