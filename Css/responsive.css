@@ -362,6 +362,10 @@ div .contact-message {
 #footer-heading {
   margin-bottom: 13px;
 }
+footer {
+ 
+  padding-top: 60px;
+}
 }
 @media screen and (max-width: 24.25em)
 {
@@ -432,10 +436,7 @@ div .contact-insert {
     border-radius: 5px;
   }
    /*                                                            FOOTER */
-  footer {
  
-    padding-top: 28px;
-  }
  
 }
 
