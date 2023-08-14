@@ -1,5 +1,27 @@
 @media  screen and (max-width: 86em)
-  {
+  {div .contact-message {
+    height: 7rem;
+  }
+    .contact-input {
+      margin-bottom: 1.5rem;
+    }
+    .contact-label {
+      height: 21px;
+      width: auto;
+      margin-bottom: 0;
+    }
+    #contact-container {
+      height: auto;
+      padding: 4rem 0;
+    }
+    #contact-form {
+      padding: 1rem 2rem;
+      height: auto;
+    }
+    div .contact-insert {
+    height: 3rem;
+  }
+
     /*                                            PROJECTS */
     .section-paragraph {
       width: 68%;
@@ -230,6 +252,10 @@ overflow: hidden;
 .projects {
   padding: 0 1.5rem;
 }
+
+div .contact-insert {
+  height: 2rem;
+}
 } 
 @media screen and (max-width: 30.25em)
 {
@@ -270,10 +296,22 @@ overflow: hidden;
     grid-template-rows: 35.1rem;
 
   }
- 
+ /*                                                PROJECTS */
 #projects-container {
   height: auto;
   padding: 5rem 0px;
+}
+/*                                                  CONTACT */
+div .contact-message {
+  height: 6rem;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+}
+#contact-form {
+  width: 66.3%;
+}
+#contact-container {
+  padding: 5rem 0;
 }
 }
 @media screen and (max-width: 24.25em)
@@ -338,4 +376,18 @@ overflow: hidden;
   width: 45px;
 }
 
+div .contact-insert {
+  
+    height: auto;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+  }
+}
+
+
+@media screen and (max-width: 20.25em)
+{
+  .projects-paragraph {
+    height: auto;
+  }
 }
