@@ -1,5 +1,54 @@
+@media  screen and (max-width: 86em)
+  {
+    /*                                            PROJECTS */
+    .section-paragraph {
+      width: 68%;
+    }
+    #project-headings {
+      width: 100%;
+      margin: 0px 0px 3rem;
+    }
+    #projects-container {
+      height: auto;
+    }
+    .projects-paragraph {
+      margin-top: 0px;
+      height: 5.5em;
+    }
+    .project-details {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .projects {
+      height: auto;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      flex-direction: column-reverse;
+      margin-bottom: 0;
+    }
+    .project-image {
+      height: auto;
+      width: 100%;
+      margin: 0 0 5rem;
+    }
+    .swiper {
+      width: 100%;
+    }
+    .swiper-slide img{
+      height: auto;
+      width: 100%;
+      margin: 0 0;
+    }
+  }
+
 @media  screen and (max-width: 75em)
   {
+   
 html {
   font-size: 80%;
 }
@@ -97,8 +146,9 @@ overflow: hidden;
   width: 100%;
   overflow: hidden;
 }
+
 .skills-heading {
- 
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -164,7 +214,20 @@ overflow: hidden;
   #menu-icon{
     display: inline
   }
+  /*                                                      PROJECTS */
+
+  .swiper .swiper-button-prev, .swiper .swiper-button-next {
+
+    width: calc(var(--swiper-navigation-size)/ 44 * 1);
+  }
+  #buffering-circle {
+    margin-top: 20px;
+    border: 5px solid #666;
+    height: 50px;
+    width: 50px;
+    border-top: 5px solid black;
 }
+} 
 @media screen and (max-width: 30.25em)
 {
 
@@ -204,7 +267,11 @@ overflow: hidden;
     grid-template-rows: 35.1rem;
 
   }
-  
+ 
+#projects-container {
+  height: auto;
+  padding: 5rem 0px;
+}
 }
 @media screen and (max-width: 24.25em)
 {
@@ -258,4 +325,14 @@ overflow: hidden;
 #left-nav {
   gap: 2rem;
 }
+
+/*                                                            PROJECTS */
+.projects-paragraph {
+  height: 70px;
+}
+#buffering-circle {
+  height: 45px;
+  width: 45px;
+}
+
 }
