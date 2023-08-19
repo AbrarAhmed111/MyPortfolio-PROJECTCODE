@@ -282,7 +282,8 @@ overflow: hidden;
 
   .swiper .swiper-button-prev, .swiper .swiper-button-next {
 
-    width: calc(var(--swiper-navigation-size)/ 44 * 1);
+    /* width: calc(var(--swiper-navigation-size)/ 44 * 1); */
+    display: none;
   }
   #buffering-circle {
     margin-top: 20px;
@@ -297,6 +298,9 @@ overflow: hidden;
 
 div .contact-insert {
   height: 2rem;
+}
+.projects-paragraph {
+  height: 90px;
 }
  /*                                                    FOOTER */
 #footer-paragraph { 
