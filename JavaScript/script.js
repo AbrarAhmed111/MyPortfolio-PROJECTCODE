@@ -40,6 +40,12 @@ function updateSlideContent(activeSlideIndex) {
     paragraph.innerHTML = "Proudly presenting a series of web applications I've designed and developed. From a functional <b>Todo list</b> to a versatile <b>Calculator</b>, a secure <b>Password Autogenerator</b>, an engaging <b>Music Player</b>, and an interactive <b>Quiz App</b>. These applications reflect my dedication to creating impactful digital solutions.";
   }
   else if (activeSlideIndex === 3) {
+    heading.style.color= "#da2626";
+    heading.innerHTML = "Netflix Clone"; 
+    paragraph.innerHTML = "This project is a Netflix clone, showcasing my skills in web development using <b>HTML</b> and <b>TailwindCss</b>.  It provides a visually appealing and user-friendly interface reminiscent of the original Netflix platform.";
+  }
+
+  else if (activeSlideIndex === 4) {
     heading.style.color= "#202425";
     heading.innerHTML = "My Portfolio"; 
     paragraph.innerHTML = "In this project, I developed a visually stunning <b>portfolio website</b> using front-end development skills, including CSS Grid, Flexbox, various CSS properties and JavaScript. The portfolio showcases my <b>skills</b>, <b>projects</b>, and <b>achievements</b> in a responsive and visually appealing manner.";
