@@ -8,10 +8,10 @@ let typed = new Typed("#element", {
 //                                                PROJECTS SLIDER
 
 const swiper = new Swiper(".swiper", { 
-  autoplay: {
-    delay: 4000,
-    disableOnInteraction: false,
-},
+//   autoplay: {
+//     delay: 4000,
+//     disableOnInteraction: false,
+// },
 
   loop: true,
   pagination: {
@@ -24,36 +24,50 @@ const swiper = new Swiper(".swiper", {
 });
 let heading = document.getElementById("headingg");
 let paragraph = document.getElementById("paragraphh");
+let git_address = document.getElementById("git_address");
+let live_address = document.getElementById("live_address");
 
 function updateSlideContent(activeSlideIndex) {
   if (activeSlideIndex === 0) {
-    heading.style.color = "#2874f0";
-    heading.innerHTML = "E-commerce Website";
-    paragraph.innerHTML = "The project involves creating a clone of <b>Flipkart</b> using front-end development skills, including <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>. Users can browse products, add them to the cart, and complete purchases through a visually appealing and <b>user-friendly</b> interface.";
+    heading.style.color= "#ffac8c";
+    heading.innerHTML = "ShopNest"; 
+    paragraph.innerHTML = "A shopping <b>E-commerce</b> website made using <b>React</b> and <b>Tailwind CSS</b>. People can use filters to find products easily, add them to a shopping cart, and see more details about the products. The site works well on computers and phones.";
+    git_address.href = "https://github.com/AbrarAhmed111/ShopNest-PROJECTCODE";
+    live_address.href = "https://shopnestbyabrar.netlify.app/";
   } else if (activeSlideIndex === 1) {
     heading.style.color= "#2cac57";
     heading.innerHTML = "Solar Solutions Startup";
     paragraph.innerHTML = "This project is a dynamic website for a solar solutions startup. Built from scratch using <b>HTML</b> , <b>CSS</b> (Tailwind), and <b>JavaScript</b>. Discover clean energy options through a sleek and intuitive interface. See how technology is driving the future of sustainability.";
+    git_address.href = "/";
+    live_address.href = "/";
   } else if (activeSlideIndex === 2) {
     heading.style.color= "#7b329c";
     heading.innerHTML = "Web Applications"; 
     paragraph.innerHTML = "Proudly presenting a series of web applications I've designed and developed. From a functional <b>Todo list</b> to a versatile <b>Calculator</b>, a secure <b>Password Autogenerator</b>, an engaging <b>Music Player</b>, and an interactive <b>Quiz App</b>. These applications reflect my dedication to creating impactful digital solutions.";
+    git_address.href = "https://github.com/AbrarAhmed111/Newsies-PROJECTCODE";
+    live_address.href = "https://netflixclonebyabrar.netlify.app/";
+
   }
   else if (activeSlideIndex === 3) {
     heading.style.color= "#f97316";
     heading.innerHTML = "FlavorCrispy"; 
     paragraph.innerHTML = "FlavorCrispy, a restaurant <b>responsive</b> website I built from scratch with <b>React</b> and <b>Tailwind</b>. With FlavorCrispy, you can easily explore a world of delicious food options, filtering by type, price, and categories. It's been an amazing journey, and I can't wait for you to check it out.";
+    git_address.href = "https://github.com/AbrarAhmed111/FlavorCrispy-PROJECTCODE";
+    live_address.href = "https://flavorcrispybyabrar.netlify.app/";
   }
   else if (activeSlideIndex === 4) {
-    heading.style.color= "#da2626";
-    heading.innerHTML = "Netflix Clone"; 
-    paragraph.innerHTML = "This project is a Netflix clone, showcasing my skills in web development using <b>HTML</b> and <b>TailwindCss</b>.  It provides a visually appealing and user-friendly interface reminiscent of the original Netflix platform.";
+    heading.style.color= "#4ae290";
+    heading.innerHTML = "ShapeShifters"; 
+    paragraph.innerHTML = "Discover the 'ShapeShifters Gym' Website project, I crafted with <b>React</b> and <b>Tailwind CSS</b>. It offers a great design and exciting features.";
+    git_address.href = "https://github.com/AbrarAhmed111/ShapeShifters-PROJECTCODE";
+    live_address.href = "https://shapeshiftersbyabrar.netlify.app/";
   }
- 
   else if (activeSlideIndex === 5) {
     heading.style.color= "#202425";
     heading.innerHTML = "My Portfolio"; 
     paragraph.innerHTML = "In this project, I developed a visually stunning <b>portfolio website</b> using front-end development skills, including CSS Grid, Flexbox, various CSS properties and JavaScript. The portfolio showcases my <b>skills</b>, <b>projects</b>, and <b>achievements</b> in a responsive and visually appealing manner.";
+    git_address.href = "https://github.com/AbrarAhmed111/MyPortfolio-PROJECTCODE";
+    live_address.href = "https://devwebies.netlify.app/";
   }
 }
 

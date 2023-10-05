@@ -25,6 +25,7 @@
   }
 
     /*                                            PROJECTS */
+    
     .section-paragraph {
       width: 68%;
     }
@@ -244,6 +245,15 @@ overflow: hidden;
   height: 4px;
   width: 24px;
 }
+
+#hover-icon{
+  width: 20px;
+  height: 20px;
+}
+.live_icons{
+  justify-content: center;
+  margin-bottom: 10px;
+}
 }
 
 @media screen and (max-width: 39.25em)
@@ -429,7 +439,7 @@ footer {
 
 /*                                                            PROJECTS */
 .projects-paragraph {
-  height: 70px;
+  height: 80px;
 }
 #buffering-circle {
   height: 45px;
