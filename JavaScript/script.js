@@ -8,10 +8,10 @@ let typed = new Typed("#element", {
 //                                                PROJECTS SLIDER
 
 const swiper = new Swiper(".swiper", { 
-//   autoplay: {
-//     delay: 4000,
-//     disableOnInteraction: false,
-// },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+},
 
   loop: true,
   pagination: {
