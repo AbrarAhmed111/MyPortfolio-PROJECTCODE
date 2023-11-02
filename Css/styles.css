@@ -45,7 +45,7 @@ header{
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-image: url("/Resources/mypicture.png");
+  background-image: url("/Resources/mypicturew.jpg");
   background-size: cover;
   filter: invert(0);
   
@@ -805,9 +805,7 @@ body.dark-theme {
   background-color: #1f2324;
   color: #ffffff;
 }
-.dark-theme #icon-img{
-  border: 1px solid #ffffff;
-}
+
 .dark-theme #right-nav ul li a, .dark-theme #nav-name {
   color: #ffffff;
 }
@@ -868,6 +866,3 @@ body.dark-theme {
   color: #ffffff;
 }
 
-.dark-theme #icon-img{
-  filter: invert(0);
-}

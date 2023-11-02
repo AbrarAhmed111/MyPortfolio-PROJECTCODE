@@ -89,6 +89,7 @@ contactButton.addEventListener("click",(e) =>
 
 
 const darkIcons = document.querySelectorAll("#dark-icon");
+const icon_imagedark = document.getElementById("icon-img");
 let isDarkMode = false;
 
 // Loop through each dark mode toggle button
@@ -100,13 +101,20 @@ darkIcons.forEach(darkIcon => {
 
     darkIcons.forEach(icon => {
       if (isDarkMode) {
-        icon.src = "/Resources//sun.png"; 
+        icon.src = "/Resources/sun.png"; 
       } else {
-        icon.src = "/Resources//moon.png"; 
+        icon.src = "/Resources/moon.png"; 
       }
     });
+
+    if (isDarkMode) {
+      icon_imagedark.style.backgroundImage = 'url("/Resources/mypicture.jpg")';
+    } else {
+      icon_imagedark.style.backgroundImage = 'url("/Resources/mypicturew.jpg")';
+    }
   });
 });
+
 
 //                                                     DRAG TEXT ARROW
 
