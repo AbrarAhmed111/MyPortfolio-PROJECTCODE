@@ -41,13 +41,13 @@ header{
 }
 
 #icon-img {
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(0, 0, 0); */
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-image: url("/Resources/logo-icon.png");
+  background-image: url("/Resources/mypicture.png");
   background-size: cover;
-  filter: invert(1);
+  filter: invert(0);
   
 }
 
